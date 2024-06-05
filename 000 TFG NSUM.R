@@ -4472,22 +4472,6 @@ print(paste("Silhouette average:", silhouette_avg))
 
 
 
-#Cluster 1:
-
-#Intención de voto: intención de voto para Sumar y PSOE con valores positivos significativos. Por otro lado, la intención de voto para PP y Vox menos apoyo entre los contactos de este grupo. El valor de Blanco también es negativo, lo que sugiere que hay poca intención de voto en blanco entre los contactos de este cluster.
-
-#Edad:  mayor proporción de contactos en las edades de 18 a 54 años, siendo más predominante en el rango de 31 a 54 años. 
-
-#Ocupación: presencia notable de profesionales autónomos y del sector médico.
-
-#Cluster 2:
-  
-#Intención de voto: la intención de voto para todos los partidos políticos y la opción de voto en blanco es baja y cercana a cero. Esto indica que los contactos de los participantes en este cluster muestran poco interés o apoyo hacia algún partido político específico o hacia la opción de voto en blanco.
-
-#Edad: La distribución por edades es más equilibrada, con valores cercanos a cero en todas las categorías de edad. 
-
-#Ocupación: los valores son cercanos a cero en todas las categorías, lo que sugiere que la red de contactos de este cluster no está sesgada hacia ninguna ocupación en particular.
-
 
 cluster_counts <- table(k2$cluster)
 print(cluster_counts)
@@ -4517,33 +4501,6 @@ print(paste("Silhouette average:", silhouette_avg.k3))
 
 
 
-
-
-#Cluster 1:
-  
-#Intenciones de voto:  intenciones de voto más altas para el PSOE y Sumar.
-
-#Edad: La mayoría de los individuos en este cluster se encuentran en el rango de edad de 31 a 54 años.
-
-#Ocupación: Los autónomos y médicos en este cluster tienen un número significativamente mayor de contactos en comparación con los desempleados
-
-
-
-#Cluster 2:
-  
-#Intenciones de voto:neutralidad.
-
-#Edad: La edad promedio en este cluster es similar en los tres grupos de edad, con valores cercanos a cero. 
-
-#Ocupación#: distribución uniforme en términos de ocupación y tamaño de la red de contactos.
-
-#Cluster 3:
-  
-#Intenciones de voto: preferencia clara por todos los partidos políticos.
-
-#Edad: La edad promedio es similar en todos los grupos de edad, con valores cercanos a 1. 
-
-#Ocupación: Los médicos tienen el número más alto de contactos en este cluster, seguidos por los autónomos. (médicos con  red de contactos más amplia en comparación con otros grupos ocupacionales en este cluster)
 
 # ANOVA
 
